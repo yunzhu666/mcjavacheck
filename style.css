@@ -1,0 +1,46 @@
+body {
+    font-family: PingFang SC, HarmonyOS_Regular, Helvetica Neue, Microsoft YaHei, sans-serif !important;
+    color: #666;
+    margin: 0 auto !important;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #666;
+}
+.container{
+	text-align: center;
+    margin: 0 75px;
+}
+#data{
+	border: 2px solid rgba(96, 184, 115, .23);
+    border-radius: 4px;
+}
+table{
+	width: 100%;
+    background-color: rgba(96, 184, 115, .23);
+    border-collapse: collapse;
+}
+#myForm, input, button, img, th{
+	padding: 6px;	
+}
+button{
+    border: 0;
+	border-radius: 4px;
+	color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;	
+}
+th{
+    background-color: #d3e9d8;
+}
+tr{
+	background-color: #fff;
+    border-bottom-style: dotted;
+    border-bottom-color: rgba(96, 184, 115, .23);	
+}
+tr:nth-of-type(odd) {
+    background: rgb(255 255 255 / 74%);
+}
+tr:hover {
+    background-color: #d3e9d8;
+}
